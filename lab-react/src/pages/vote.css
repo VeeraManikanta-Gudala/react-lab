@@ -1,0 +1,31 @@
+.voting-app {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    }
+    .candidates {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    }
+    .candidate {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    }
+    button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    }
+    button:hover {
+    background-color: #45a049;
+    }
